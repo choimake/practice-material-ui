@@ -1,7 +1,8 @@
 import React from "react";
+import GenericTemplate from "../templates/GenericTemplate";
 
 const ProductPage = () => {
-  return <div>ProductPage</div>;
+  return <GenericTemplate title="ProductPage">ProductPage</GenericTemplate>;
 };
 
 export default ProductPage;
